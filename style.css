@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-LightItalic.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.here {
+  background-color: #1f2937;
+}
+
+.befree {
+  height: 500px;
+  background-color: white;
+}
+
+.container {
+  width: 75%;
+
+  margin: 0 auto;
+}
+
+.top-section {
+  background-color: #1f2937;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* link*/
+.link-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.link-list :hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.link {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.link.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.first {
+  margin: 40px auto;
+  width: 75%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+
+  color: #f9faf8;
+}
+
+.content .ready {
+  margin-top: 40px;
+}
+.started {
+  font-size: 48px;
+  font-weight: bolder;
+  color: F9FAF8;
+}
+
+.content .ready .plan {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/*button style*/
+.button {
+  border-radius: 5px;
+  margin: 10px auto;
+  width: 70px;
+  height: 25px;
+  color: #e5e7eb;
+  background-color: cornflowerblue;
+  border-style: none;
+}
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+/*header img style*/
+img {
+  margin: 20px;
+}
+
+/*kartat*/
+.befree .cart {
+  width: 60%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.befree .cart .movie {
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.movie:hover {
+  transform: translateY(30px);
+}
+
+.img {
+  margin: auto;
+}
+
+/*pjesa e thenjes*/
+.word {
+  height: 300px;
+  margin: auto;
+  background-color: #e5e7eb;
+  display: flex;
+  font-family: "Roboto";
+}
+
+.word .quote {
+  margin: auto;
+
+  font-size: 36px;
+
+  color: #1f2937;
+}
+
+/*call...........*/
+
+.ask .action {
+  border-radius: 5px;
+  margin: 50px auto;
+  width: 80%;
+  height: 200px;
+  color: #e5e7eb;
+  background-color: cornflowerblue;
+  border-style: none;
+}
+
+.ask .action .call .time {
+  padding: 70px;
+}
+
+.ask .action .call .product {
+  margin-top: -50px;
+  padding-left: 65px;
+}
+/*button*/
+.ask .action .up {
+  text-align: right;
+  margin: -45px 200px;
+}
+
+.up .sing {
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+  background-color: cornflowerblue;
+  border-style: solid;
+  border-color: white;
+  color: white;
+}
+
+.sing:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/*footer*/
+.end {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+/*footer*/
+footer {
+  margin-top: 90px;
+  height: 70px;
+  background-color: #1f2937;
+}

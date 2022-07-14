@@ -1,0 +1,46 @@
+.column {
+  display: flex;
+}
+body {
+  background-color: steelblue;
+}
+
+.about {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: aliceblue;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+.koka {
+  margin-left: 25px;
+  margin-top: 50px;
+  font-size: 40px;
+  color: aliceblue;
+}
+.discription {
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: aqua;
+  color: aliceblue;
+  margin-top: 21px;
+  margin-bottom: 25px;
+  width: 770px;
+  padding: 8px;
+}
+.column {
+  margin-top: 30px;
+}
+
+.rregul {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.idn {
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: blue;
+}
